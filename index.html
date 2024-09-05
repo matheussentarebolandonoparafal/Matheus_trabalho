@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nerko+One&display=swap" rel="stylesheet">
+    <title>ESCOLHA SEU DESTINO</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo-0.avif" alt="imagem de fundo">
+            <p>Você encontra o artefato e sente um poder crescente. O guardião na visão diz que você deve ir para a Montanha da Perdição para encontrar uma relíquia que pode derrotar a ameaça. Como você começa sua jornada?</p>
+            <button class="btn-proximo" data-proximo="1">Partir imediatamente para a Montanha da Perdição</button>
+            <button class="btn-proximo" data-proximo="2">Visitar o sábio local para obter conselhos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>A jornada é árdua e perigosa. Você encontra uma bifurcação na estrada, uma opção mais curta e arriscada ou um caminho mais longo, porém mais seguro.</p>
+            <button class="btn-proximo" data-proximo="3">Caminho curto e perigoso.</button>
+            <button class="btn-proximo" data-proximo="4">Caminho longo e seguro</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O sábio dá conselhos e uma poção de invisibilidade. No entanto, ele alerta sobre um guardião na entrada da Montanha da Perdição.Como você usa a poção?</p>
+            <button class="btn-proximo" data-proximo="5">Usar a poção imediatamente ao encontrar o guardião.</button>
+            <button class="btn-proximo" data-proximo="6">Tentar enfrentar o guardião sem a poção.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo-3.webp" alt="imagem sendo atropelado">
+            <p>O caminho está cheio de emboscadas e você é atacado por bandidos. Você foi morto!</p>
+           
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p> Leva mais tempo, mas evita perigos</p>
+            <button class="btn-proximo" data-proximo="7">CONTINUAR.</button>
+           
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você evita a detecção, mas a poção tem um tempo limitado. Você não toma a quantidade certa e não faz efeito.</p>
+           
+        </div>
+        
+        
+        <div class="passo" id="passo-6">
+            <p>Você chega à entrada da câmara onde a relíquia está guardada. O guardião, um ser mágico poderoso, está de guarda. Sem a poção de invisibilidade, você deve enfrentar o guardião diretamente..</p>
+            <button class="btn-proximo" data-proximo="8">Lutar diretamente.</button>
+            <button class="btn-proximo" data-proximo="9">Tentar negociar</button>
+            </div>
+<div class="passo" id="passo-7">
+            <p>Ao final do caminho longo, você chega à base da Montanha da Perdição exausto, mas a salvo. O tempo extra e os recursos adicionais que você adquiriu na aldeia lhe proporcionam uma vantagem, mas seu cansaço pode afetar suas habilidades e decisões futuras.</p>
+            <button class="btn-proximo" data-proximo="10">Descansar e recuperar as forças</button>
+            <button class="btn-proximo" data-proximo="11">Avançar imediatamente para a Montanha</button>
+            <button class="btn-proximo" data-proximo="12">Desistir da aventura por estar muito cansado</button>
+        
+
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="cat-meme.gif" alt="imagem porrada">
+            <p>Você leva uma porrada do guardião</p>
+        
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="5xhzo1.png"imagem sendo atropelado">
+            <p>Você falhou  e enfrentrou uma batalha sem preparo e morreu.</p>
+    
+        
+        
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao armar sua barraca é comido por um jacaré!</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Apesar do cansaço, você decide ir diretamente para o desafio final. Isso pode apressar o encontro com o guardião da relíquia, mas você estará em desvantagem devido à fadiga.</p>
+            <button class="btn-proximo" data-proximo="14"> CONTINUAR</button>
+                
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Uma carroça passa por cima de você.</p>
+            <img src="cenario-passo-11.webp" alt="END GAME">
+           
+        </div>
+
+
+        <div class="passo" id="passo-14">
+            <p> Você passa um tempo recuperando suas forças. Durante esse período, pode encontrar um grupo . A letra que você escolher definirá seu futuro! </p>
+                <button class="btn-proximo" data-proximo="15">A</button>
+                <button class="btn-proximo" data-proximo="16">B</button>
+            </div>
+        <div class="passo" id="passo-15">
+            <p>É um grupo de canibais, te atacam e te comem!.</p>
+            <img src="60edd172cfd06.jpeg" alt="END GAME">
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Eles te empurram de um penhasco</p>
+            <img src="anime-girl.gif"END GAME">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
